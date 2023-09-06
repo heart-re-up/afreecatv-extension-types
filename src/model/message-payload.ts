@@ -3,7 +3,7 @@ import {SubscriptionGiftType, SubscriptionType} from "../type/subscription";
 import {QuickViewGiftType} from "../type/quick-view";
 
 
-export interface Message extends User {
+export interface DefaultMessagePayload extends User {
     /** 채팅 메시지 */
     message: string
     /** OGQ 이모티콘 이미지 주소 */

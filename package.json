@@ -1,8 +1,8 @@
 {
   "name": "@afreecatv/extension",
-  "version": "0.0.9",
+  "version": "0.0.15",
   "description": "A core of AfreecaTV extension program.",
-  "main": "dist/index.js",
+  "main": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/heart-re-up/afreecatv-extension.git"
@@ -31,13 +31,5 @@
     "afreecatv",
     "아프리카",
     "아프리카tv"
-  ],
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs",
-      "default": "./dist/index.js"
-    }
-  }
+  ]
 }
