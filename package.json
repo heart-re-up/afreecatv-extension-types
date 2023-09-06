@@ -1,6 +1,6 @@
 {
   "name": "@afreecatv/extension",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A core of AfreecaTV extension program.",
   "main": "dist/index.js",
   "repository": {
