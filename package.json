@@ -1,0 +1,43 @@
+{
+  "name": "@afreecatv/extension",
+  "version": "0.0.8",
+  "description": "A core of AfreecaTV extension program.",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heart-re-up/afreecatv-extension.git"
+  },
+  "author": "heart.re.up <chilly.soda@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "devDependencies": {
+    "esbuild": "^0.19.2",
+    "typescript": "^5.2.2"
+  },
+  "bugs": {
+    "url": "https://github.com/heart-re-up/afreecatv-extension/issues"
+  },
+  "homepage": "https://github.com/heart-re-up/afreecatv-extension#readme",
+  "scripts": {
+    "prepack": "yarn build",
+    "build": "yarn clean && yarn build:tsc && yarn build:js",
+    "build:tsc": "yarn tsc",
+    "build:js": "node build.js",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "afreeca",
+    "afreecatv",
+    "아프리카",
+    "아프리카tv"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.js"
+    }
+  }
+}
