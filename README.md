@@ -23,7 +23,13 @@ if (document.readyState === 'complete') {
     return () => window.removeEventListener('load', _onPageLoad);
 }
 
-
+function _onPageLoad() {
+    console.log('_onPageLoad')
+    const sdk = window.AFREECA.ext()
+    sdk.handleInitialization((authInfo: AuthInfo, broadInfo: BroadInfo, playerInfo: PlayerInfo) => {
+        // 여기에서 초기화 정보 이용.
+    });
+}
 ```
 
 # 제한사항
