@@ -1,6 +1,6 @@
 {
   "name": "@afreecatv/extension",
-  "version": "0.0.16",
+  "version": "0.0.19",
   "description": "A core of AfreecaTV extension program.",
   "main": "dist/index.d.ts",
   "repository": {
@@ -9,6 +9,9 @@
   },
   "author": "heart.re.up <chilly.soda@gmail.com>",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "private": false,
   "type": "module",
   "devDependencies": {

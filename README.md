@@ -2,12 +2,21 @@
 
 아프리카TV 에서 2023.08.23 부터 제공하기 시작한 확장프로그램 SDK 의 타입입니다.
 
-모듈이 정의된 Declaration(`index.d.ts`) 파일을 제공합니다.
+SDK 가 모듈로 존재하지 않기 떄문에 `@types` 를 배포 할 수가 없습니다.
 
-# 시작하기
+따라서 인터페이스 자체를 모듈로 배포합니다.
+
+# 설치
 
 ```shell
-yarn add -D @afreecatv@extension
+# npm
+npm i -D @afreecatv/extension
+
+# yarn
+yarn add -D @afreecatv/extension
+
+# pnpm
+pnpm add -D @afreecatv/extension
 ```
 
 # 예제
