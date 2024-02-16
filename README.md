@@ -10,13 +10,13 @@ SDK 가 모듈로 존재하지 않기 떄문에 `@types` 를 배포 할 수가 �
 
 ```shell
 # npm
-npm i -D @afreecatv/extension
+npm i -D @afreecatv/extension-types
 
 # yarn
-yarn add -D @afreecatv/extension
+yarn add -D @afreecatv/extension-types
 
 # pnpm
-pnpm add -D @afreecatv/extension
+pnpm add -D @afreecatv/extension-types
 ```
 
 # 예제
